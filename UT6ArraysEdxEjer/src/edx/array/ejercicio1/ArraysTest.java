@@ -50,7 +50,7 @@ public class ArraysTest {
 		    }
 
 		    print("A", arrayA);
-		    // Complete this sentence. It should behave exactly the same as the previous method call
+		    // Utiliza el API de Java para que tenga el mismo comportamiento.
 		    //System.out.println("A = "+??????????);
 	    	print("B", arrayB);
 		    //System.out.println("B = "+?????????);
