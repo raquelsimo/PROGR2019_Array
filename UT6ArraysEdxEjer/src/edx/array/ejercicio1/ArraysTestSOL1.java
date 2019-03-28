@@ -26,7 +26,7 @@ public class ArraysTestSOL1 {
 	    private static int indexMin(int[] array) {
 	    	int index = 0;
 	    	int value = array[0];
-		    for (int i = 1; i < array.length -1; i++) {
+		    for (int i = 1; i < array.length; i++) {
 		        if (array[i] < value) {
 			        index = i;
 			        value= array[i];
@@ -37,7 +37,7 @@ public class ArraysTestSOL1 {
 
 	    private static int min(int[] array) {
 		    int value = array[0];
-		    for (int i = 1; i < array.length -1; i++) {
+		    for (int i = 1; i < array.length; i++) {
 		        if (array[i] < value) {
 			        value = array[i];
 		        }
